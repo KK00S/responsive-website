@@ -1,0 +1,180 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      width: 100%;
+      font-family: 'poppins', sans-serif;
+  }
+
+  section {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .container-fluid {
+      padding: 0 !important;
+  }
+
+  /*---------- navbar ----------*/
+
+  .navbar {
+      width: 90%;
+      margin: auto;
+  }
+
+  .navbardiv {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #d9b608;
+  }
+
+  li {
+      padding: 5px;
+  }
+
+  .nav-link {
+      font-size: 15px;
+      font-weight: bold;
+      border: 2px solid transparent;
+  }
+
+  .nav-link:hover {
+      border-bottom: 2px solid #000;
+      transition: .1s;
+  }
+
+  /*---------- navbar ----------*/
+
+  /*------------ home --------------*/
+
+  #home {
+      background-image: url(./slider-bg.jpg);
+      color: #fff;
+      padding-left: 20px;
+
+  }
+
+  span {
+      color: #d9b608;
+      font-weight: bold;
+  }
+
+  p {
+      font-size: 18px;
+
+  }
+
+  /*------------ home --------------*/
+
+  /*------------ about --------------*/
+  #about {
+      background-image: url(./istockphoto-1142713797-170667a.jpg);
+      background-repeat: no-repeat;
+    
+      background-size: cover;
+  }
+
+  .fit {
+      text-align: center;
+  }
+
+  .fity {
+      text-align: center;
+
+  }
+
+  .fitr {
+      text-align: center;
+
+  }
+
+  img {
+      padding-top: 30px;
+  }
+
+  .ener {
+      padding-left: 70px;
+      padding-right: 70px;
+      font-size: 20px;
+  }
+
+  /*------------ about --------------*/
+
+  /*------------ service -------------- */
+  #service {
+      background-image: url(./istockphoto-1142713797-170667a.jpg);
+      background-repeat: no-repeat;
+    
+      background-size: cover;
+  }
+
+  .card-body:hover {
+      background-color: rgb(62, 62, 62);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      overflow: hidden;
+      transition: all 1.5s ease;
+  }
+
+  .inner {
+      overflow: hidden;
+
+  }
+
+  .car-img:hover {
+      transform: scale(1.2);
+      transition: 1.5s;
+  }
+
+  /*------------ service -------------- */
+
+  /*------------ contact -------------- */
+
+  #contact {
+      color: #fff;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      padding-right: 0;
+      padding-left: 0;
+      background-image: url(./desktop-wallpaper-exercising-body-art-bodybuilder-bodybuilding-men-in-black-women-fitness-model-black-background-dark-abdominals-6-pack-muscles-biceps-3000x1636.jpg);
+
+  }
+
+  form {
+      padding: 40px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+          -1px -1px 5px rgba(0, 0, 0, 0.05);
+      border-radius: 20px;
+  }
+
+  .comm {
+      padding: 40px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+          -1px -1px 5px rgba(0, 0, 0, 0.05);
+      border-radius: 20px;
+      font-size: 20px;
+  }
+
+  .ficon {
+      font-size: 50px;
+      padding-top: 30px;
+  }
+
+
+  /*------------ contact -------------- */
+
+  .footer {
+      text-align: center;
+      background-color: #d9b608;
+  }
